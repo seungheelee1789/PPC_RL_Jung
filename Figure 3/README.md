@@ -1,12 +1,16 @@
+Author: Eunji Jung 
 
 S1-12: Sample #1, 12th slide (corresponding to AP -1.94 mm).
-# representative brain slice images, correspond to the Fig. 2e. 
 
+# Figure3. Quantification of tracing data 
+Author: Eunji Jung 
+
+S1-12: Sample #1, 12th slide (corresponding to AP -1.94 mm).
 .csv data was extracted from slide image by using IMARIS cell detection function. 
-DAPI.csv: DAPI signals were used to delineate boundaries by colocalization with the reference atlas.
-AC.csv: Neurons projecting to the auditory cortex (AC), identified by GFP signals.
-IC.csv: Neurons projecting to the inferior colliculus (IC), identified by tdTomato signals.
-Colocal.csv: Neurons projecting to both AC and IC, identified by the presence of both GFP and tdTomato signals.
+- DAPI.csv: DAPI signals were used to delineate boundaries by colocalization with the reference atlas.
+- AC.csv: Neurons projecting to the auditory cortex (AC), identified by GFP signals.
+- IC.csv: Neurons projecting to the inferior colliculus (IC), identified by tdTomato signals.
+- Colocal.csv: Neurons projecting to both AC and IC, identified by the presence of both GFP and tdTomato signals.
 
 1st column: X coordinate (ML).
 2nd column: Y coordinate (DV; inverted, corrected by "camroll").
