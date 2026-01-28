@@ -11,7 +11,7 @@ We first ran the GLM, then saved the data to avoid running the model again for f
 * r\_onset : reward onset
 * score : final score for the fully built model, validated 20 times
 * stim\_onset: stimulus onset
-* theta : fully built model coefficient weights (validated 20 times)
+* theta : fully built model coefficient weights, validated 20 times
 * X4: fully built model kernel
 * Y : Calcium trace (dF/F0) (binned by 100ms window)
 * yhat : model fitted trace  (binned by 100ms window)
